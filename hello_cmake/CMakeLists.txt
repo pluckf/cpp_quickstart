@@ -14,6 +14,8 @@ link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 # Add executable for a.cpp (assumes a.cpp is in the same directory)
 add_executable(a_exec a.cpp)
+add_executable(pointer_exec pointer.cpp)
+
 target_link_libraries(a_exec  b_lib)
 # Installation (optional)
 

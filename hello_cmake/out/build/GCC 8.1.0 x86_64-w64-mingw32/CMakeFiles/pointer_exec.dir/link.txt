@@ -1,0 +1,3 @@
+E:\chrome_download\cmake-3.29.7-windows-x86_64\cmake-3.29.7-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\pointer_exec.dir/objects.a
+E:\chrome_download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\ar.exe qc CMakeFiles\pointer_exec.dir/objects.a @CMakeFiles\pointer_exec.dir\objects1.rsp
+E:\chrome_download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\pointer_exec.dir/objects.a -Wl,--no-whole-archive -o pointer_exec.exe -Wl,--out-implib,libpointer_exec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pointer_exec.dir\linkLibs.rsp

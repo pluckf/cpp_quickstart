@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "hello_cmake",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "a_exec::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-a_exec-Debug-39025805d0224aeda633.json",
+					"jsonFile" : "target-a_exec-Debug-8022cb237ef8ac2b2473.json",
 					"name" : "a_exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointer_exec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointer_exec-Debug-322bd747a961d0e23362.json",
+					"name" : "pointer_exec",
 					"projectIndex" : 0
 				}
 			]

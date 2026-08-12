@@ -128,6 +128,19 @@ a_exec/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\a_exec.dir\build.make CMakeFiles/a_exec.dir/build
 .PHONY : a_exec/fast
 
+#=============================================================================
+# Target rules for targets named pointer_exec
+
+# Build rule for target.
+pointer_exec: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer_exec
+.PHONY : pointer_exec
+
+# fast build rule for target.
+pointer_exec/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_exec.dir\build.make CMakeFiles/pointer_exec.dir/build
+.PHONY : pointer_exec/fast
+
 a.obj: a.cpp.obj
 .PHONY : a.obj
 
@@ -152,6 +165,30 @@ a.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\a_exec.dir\build.make CMakeFiles/a_exec.dir/a.cpp.s
 .PHONY : a.cpp.s
 
+pointer.obj: pointer.cpp.obj
+.PHONY : pointer.obj
+
+# target to build an object file
+pointer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_exec.dir\build.make CMakeFiles/pointer_exec.dir/pointer.cpp.obj
+.PHONY : pointer.cpp.obj
+
+pointer.i: pointer.cpp.i
+.PHONY : pointer.i
+
+# target to preprocess a source file
+pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_exec.dir\build.make CMakeFiles/pointer_exec.dir/pointer.cpp.i
+.PHONY : pointer.cpp.i
+
+pointer.s: pointer.cpp.s
+.PHONY : pointer.s
+
+# target to generate assembly for a file
+pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_exec.dir\build.make CMakeFiles/pointer_exec.dir/pointer.cpp.s
+.PHONY : pointer.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... a_exec
+	@echo ... pointer_exec
 	@echo ... a.obj
 	@echo ... a.i
 	@echo ... a.s
+	@echo ... pointer.obj
+	@echo ... pointer.i
+	@echo ... pointer.s
 .PHONY : help
 
 
