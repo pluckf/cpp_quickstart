@@ -1,2 +1,2 @@
-# cpp-
+# cpp_quickstart
 我还不会cpp，所以用这几个项目，或者历程，锻炼一下我的code能力
