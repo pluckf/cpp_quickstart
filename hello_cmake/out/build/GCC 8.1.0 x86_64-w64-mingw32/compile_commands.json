@@ -1,7 +1,7 @@
 [
 {
   "directory": "E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32",
-  "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\a_exec.dir\\a.cpp.obj -c E:\\desk_top\\cpp_quickstart\\hello_cmake\\a.cpp",
+  "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/a_exec.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\a_exec.dir\\a.cpp.obj -c E:\\desk_top\\cpp_quickstart\\hello_cmake\\a.cpp",
   "file": "E:/desk_top/cpp_quickstart/hello_cmake/a.cpp",
   "output": "CMakeFiles/a_exec.dir/a.cpp.obj"
 }

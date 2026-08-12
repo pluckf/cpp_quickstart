@@ -1,5 +1,5 @@
-CMakeFiles/a_exec.dir/a.cpp.obj: \
- E:\desk_top\cpp_quickstart\hello_cmake\a.cpp \
+CMakeFiles/b_lib.dir/b.cpp.obj: \
+ E:\desk_top\cpp_quickstart\hello_cmake\b.cpp \
  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -129,4 +129,4 @@ CMakeFiles/a_exec.dir/a.cpp.obj: \
  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- E:/desk_top/cpp_quickstart/hello_cmake/include/b.h
+ E:\desk_top\cpp_quickstart\hello_cmake\b.h
