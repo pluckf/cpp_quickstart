@@ -141,6 +141,32 @@ pointer_exec/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_exec.dir\build.make CMakeFiles/pointer_exec.dir/build
 .PHONY : pointer_exec/fast
 
+#=============================================================================
+# Target rules for targets named class_exec
+
+# Build rule for target.
+class_exec: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class_exec
+.PHONY : class_exec
+
+# fast build rule for target.
+class_exec/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_exec.dir\build.make CMakeFiles/class_exec.dir/build
+.PHONY : class_exec/fast
+
+#=============================================================================
+# Target rules for targets named class_inherit
+
+# Build rule for target.
+class_inherit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class_inherit
+.PHONY : class_inherit
+
+# fast build rule for target.
+class_inherit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_inherit.dir\build.make CMakeFiles/class_inherit.dir/build
+.PHONY : class_inherit/fast
+
 a.obj: a.cpp.obj
 .PHONY : a.obj
 
@@ -164,6 +190,54 @@ a.s: a.cpp.s
 a.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\a_exec.dir\build.make CMakeFiles/a_exec.dir/a.cpp.s
 .PHONY : a.cpp.s
+
+class.obj: class.cpp.obj
+.PHONY : class.obj
+
+# target to build an object file
+class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_exec.dir\build.make CMakeFiles/class_exec.dir/class.cpp.obj
+.PHONY : class.cpp.obj
+
+class.i: class.cpp.i
+.PHONY : class.i
+
+# target to preprocess a source file
+class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_exec.dir\build.make CMakeFiles/class_exec.dir/class.cpp.i
+.PHONY : class.cpp.i
+
+class.s: class.cpp.s
+.PHONY : class.s
+
+# target to generate assembly for a file
+class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_exec.dir\build.make CMakeFiles/class_exec.dir/class.cpp.s
+.PHONY : class.cpp.s
+
+class_inherit.obj: class_inherit.cpp.obj
+.PHONY : class_inherit.obj
+
+# target to build an object file
+class_inherit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_inherit.dir\build.make CMakeFiles/class_inherit.dir/class_inherit.cpp.obj
+.PHONY : class_inherit.cpp.obj
+
+class_inherit.i: class_inherit.cpp.i
+.PHONY : class_inherit.i
+
+# target to preprocess a source file
+class_inherit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_inherit.dir\build.make CMakeFiles/class_inherit.dir/class_inherit.cpp.i
+.PHONY : class_inherit.cpp.i
+
+class_inherit.s: class_inherit.cpp.s
+.PHONY : class_inherit.s
+
+# target to generate assembly for a file
+class_inherit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_inherit.dir\build.make CMakeFiles/class_inherit.dir/class_inherit.cpp.s
+.PHONY : class_inherit.cpp.s
 
 pointer.obj: pointer.cpp.obj
 .PHONY : pointer.obj
@@ -198,10 +272,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... a_exec
+	@echo ... class_exec
+	@echo ... class_inherit
 	@echo ... pointer_exec
 	@echo ... a.obj
 	@echo ... a.i
 	@echo ... a.s
+	@echo ... class.obj
+	@echo ... class.i
+	@echo ... class.s
+	@echo ... class_inherit.obj
+	@echo ... class_inherit.i
+	@echo ... class_inherit.s
 	@echo ... pointer.obj
 	@echo ... pointer.i
 	@echo ... pointer.s

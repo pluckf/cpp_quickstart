@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -41,14 +45,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "a_exec::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-a_exec-Debug-8022cb237ef8ac2b2473.json",
+					"jsonFile" : "target-a_exec-Debug-bc9e3b785e7a9b012042.json",
 					"name" : "a_exec",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "class_exec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-class_exec-Debug-483a67197893f7f3e558.json",
+					"name" : "class_exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "class_inherit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-class_inherit-Debug-30ed6f82d65e8c594b1d.json",
+					"name" : "class_inherit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "pointer_exec::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pointer_exec-Debug-322bd747a961d0e23362.json",
+					"jsonFile" : "target-pointer_exec-Debug-fa53e4c97a6375ec8c4c.json",
 					"name" : "pointer_exec",
 					"projectIndex" : 0
 				}

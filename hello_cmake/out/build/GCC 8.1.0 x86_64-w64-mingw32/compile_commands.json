@@ -10,5 +10,17 @@
   "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/pointer_exec.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\pointer_exec.dir\\pointer.cpp.obj -c E:\\desk_top\\cpp_quickstart\\hello_cmake\\pointer.cpp",
   "file": "E:/desk_top/cpp_quickstart/hello_cmake/pointer.cpp",
   "output": "CMakeFiles/pointer_exec.dir/pointer.cpp.obj"
+},
+{
+  "directory": "E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32",
+  "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/class_exec.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\class_exec.dir\\class.cpp.obj -c E:\\desk_top\\cpp_quickstart\\hello_cmake\\class.cpp",
+  "file": "E:/desk_top/cpp_quickstart/hello_cmake/class.cpp",
+  "output": "CMakeFiles/class_exec.dir/class.cpp.obj"
+},
+{
+  "directory": "E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32",
+  "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/class_inherit.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\class_inherit.dir\\class_inherit.cpp.obj -c E:\\desk_top\\cpp_quickstart\\hello_cmake\\class_inherit.cpp",
+  "file": "E:/desk_top/cpp_quickstart/hello_cmake/class_inherit.cpp",
+  "output": "CMakeFiles/class_inherit.dir/class_inherit.cpp.obj"
 }
 ]

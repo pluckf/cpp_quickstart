@@ -46,4 +46,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/a_exec.dir/DependInfo.cmake"
   "CMakeFiles/pointer_exec.dir/DependInfo.cmake"
+  "CMakeFiles/class_exec.dir/DependInfo.cmake"
+  "CMakeFiles/class_inherit.dir/DependInfo.cmake"
   )

@@ -1,4 +1,6 @@
 E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32/CMakeFiles/a_exec.dir
 E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32/CMakeFiles/pointer_exec.dir
+E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32/CMakeFiles/class_exec.dir
+E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32/CMakeFiles/class_inherit.dir
 E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32/CMakeFiles/edit_cache.dir
 E:/desk_top/cpp_quickstart/hello_cmake/out/build/GCC 8.1.0 x86_64-w64-mingw32/CMakeFiles/rebuild_cache.dir

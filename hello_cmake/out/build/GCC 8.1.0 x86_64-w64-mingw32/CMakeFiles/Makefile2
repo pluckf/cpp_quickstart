@@ -64,6 +64,8 @@ CMAKE_BINARY_DIR = "E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x
 # The main recursive "all" target.
 all: CMakeFiles/a_exec.dir/all
 all: CMakeFiles/pointer_exec.dir/all
+all: CMakeFiles/class_exec.dir/all
+all: CMakeFiles/class_inherit.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +75,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/a_exec.dir/clean
 clean: CMakeFiles/pointer_exec.dir/clean
+clean: CMakeFiles/class_exec.dir/clean
+clean: CMakeFiles/class_inherit.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -108,7 +112,7 @@ CMakeFiles/a_exec.dir/clean:
 CMakeFiles/pointer_exec.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_exec.dir\build.make CMakeFiles/pointer_exec.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_exec.dir\build.make CMakeFiles/pointer_exec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x86_64-w64-mingw32\CMakeFiles" --progress-num=3,4 "Built target pointer_exec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x86_64-w64-mingw32\CMakeFiles" --progress-num=7,8 "Built target pointer_exec"
 .PHONY : CMakeFiles/pointer_exec.dir/all
 
 # Build rule for subdir invocation for target.
@@ -126,6 +130,58 @@ pointer_exec: CMakeFiles/pointer_exec.dir/rule
 CMakeFiles/pointer_exec.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_exec.dir\build.make CMakeFiles/pointer_exec.dir/clean
 .PHONY : CMakeFiles/pointer_exec.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/class_exec.dir
+
+# All Build rule for target.
+CMakeFiles/class_exec.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_exec.dir\build.make CMakeFiles/class_exec.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_exec.dir\build.make CMakeFiles/class_exec.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x86_64-w64-mingw32\CMakeFiles" --progress-num=3,4 "Built target class_exec"
+.PHONY : CMakeFiles/class_exec.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/class_exec.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x86_64-w64-mingw32\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/class_exec.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x86_64-w64-mingw32\CMakeFiles" 0
+.PHONY : CMakeFiles/class_exec.dir/rule
+
+# Convenience name for target.
+class_exec: CMakeFiles/class_exec.dir/rule
+.PHONY : class_exec
+
+# clean rule for target.
+CMakeFiles/class_exec.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_exec.dir\build.make CMakeFiles/class_exec.dir/clean
+.PHONY : CMakeFiles/class_exec.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/class_inherit.dir
+
+# All Build rule for target.
+CMakeFiles/class_inherit.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_inherit.dir\build.make CMakeFiles/class_inherit.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_inherit.dir\build.make CMakeFiles/class_inherit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x86_64-w64-mingw32\CMakeFiles" --progress-num=5,6 "Built target class_inherit"
+.PHONY : CMakeFiles/class_inherit.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/class_inherit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x86_64-w64-mingw32\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/class_inherit.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\desk_top\cpp_quickstart\hello_cmake\out\build\GCC 8.1.0 x86_64-w64-mingw32\CMakeFiles" 0
+.PHONY : CMakeFiles/class_inherit.dir/rule
+
+# Convenience name for target.
+class_inherit: CMakeFiles/class_inherit.dir/rule
+.PHONY : class_inherit
+
+# clean rule for target.
+CMakeFiles/class_inherit.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_inherit.dir\build.make CMakeFiles/class_inherit.dir/clean
+.PHONY : CMakeFiles/class_inherit.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

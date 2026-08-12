@@ -1,1 +1,1 @@
--IE:/desk_top/cpp_quickstart/hello_cmake -IE:/desk_top/cpp_quickstart/hello_cmake/include
+-IE:/desk_top/cpp_quickstart/hello_cmake -IE:/desk_top/cpp_quickstart/hello_cmake/include -IE:/desk_top/cpp_quickstart/hello_cmake/lib
