@@ -40,15 +40,21 @@ CMakeFiles/hello_leetcode.dir/listnode_reference.cpp.obj: E:/desk_top/cpp_quicks
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
@@ -82,6 +88,8 @@ CMakeFiles/hello_leetcode.dir/listnode_reference.cpp.obj: E:/desk_top/cpp_quicks
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -187,8 +195,6 @@ E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x8
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h:
 
-E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h:
-
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h:
@@ -200,6 +206,8 @@ E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x8
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:
 
@@ -217,6 +225,8 @@ E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x8
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype:
 
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
+
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
@@ -227,13 +237,11 @@ E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x8
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h:
 
-E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
-
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
 
-E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
 
-E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h:
 
@@ -243,17 +251,25 @@ E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x8
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:
 
-E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h:
-
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc:
 
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/limits.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
+
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc:
-
-E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h:
 
@@ -265,9 +281,15 @@ E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x8
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h:
 
-E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h:
-
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h:
 
@@ -301,9 +323,13 @@ E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x8
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
 
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
+
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
+
+E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
@@ -348,8 +374,6 @@ E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/x86_64-w64
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/ctype.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/errno.h:
-
-E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/limits.h:
 
 E:/chrome_download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/locale.h:
 

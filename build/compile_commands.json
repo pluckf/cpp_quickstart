@@ -1,7 +1,7 @@
 [
 {
   "directory": "E:/desk_top/cpp_quickstart/build",
-  "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\hello_leetcode.dir\\listnode_reference.cpp.obj -c E:\\desk_top\\cpp_quickstart\\hello_leetcode\\listnode_reference.cpp",
+  "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe   -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\hello_leetcode.dir\\listnode_reference.cpp.obj -c E:\\desk_top\\cpp_quickstart\\hello_leetcode\\listnode_reference.cpp",
   "file": "E:/desk_top/cpp_quickstart/hello_leetcode/listnode_reference.cpp",
   "output": "CMakeFiles/hello_leetcode.dir/listnode_reference.cpp.obj"
 }
