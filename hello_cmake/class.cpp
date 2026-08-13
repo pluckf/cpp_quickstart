@@ -1,43 +1,75 @@
 #include <iostream>
+#include <cstring>
+#include <vector>
 
 using namespace std;
 
-class CppBasic{
+struct vectors{
     public:
-        int num;
-        int* ptr;
-        enum level_rank {low=0, medium, high};
-        int level;
+        char* Buffer;
+        unsigned int BufferSize;
     public:
-        CppBasic(level_rank rank) : num(0), ptr(nullptr)//初始化变量
-        {   //构造函数，在对象创建时被调用
-            level=rank;  
-            cout<<"CppBasic object created with level: " << level << std::endl;
-        }    
-        ~CppBasic() {
-            //析构函数，在对象销毁时被调用
-            std::cout << "CppBasic object destroyed" << std::endl;
+        vectors(const char *buffer)
+        {
+            BufferSize=strlen(buffer);
+            Buffer=new char[BufferSize+1];
+            memcpy(Buffer, buffer, BufferSize);
+            Buffer[BufferSize]='\0';
         }
-        void setNum(int n) {
-            num = n;
-            std::cout<<"Num is set to: " << num << std::endl;
+        
+        ~vectors(){delete[] Buffer;}
+        //深拷贝函数
+        vectors(const vectors& other) {
+            BufferSize = other.BufferSize;
+            Buffer = new char[BufferSize + 1];
+            memcpy(Buffer, other.Buffer, BufferSize);
+            Buffer[BufferSize] = '\0';
+            cout<< "Deep copy constructor called" << endl;
         }
+        //默认拷贝函数
+        // vectors(const vectors& other){
+        //     BufferSize=other.BufferSize;
+        //     Buffer=other.Buffer;//浅拷贝，指针指向同一块内存
+        // }
+        
+    
+};     
 
-        void setPtr(int n,const char* name) {
-            ptr=&n;
-            std::cout<< name << " addres is recorded in ptr: " << ptr << std::endl;
-        }
-    private:
-       
+ostream& operator<<(ostream& stream,const vectors& a)
+{   
+   stream<< a.Buffer<<","<<a.BufferSize;
+   return stream;
 };
 
+int main(){
+    vectors v1("Hello, World!");
+    vectors v2=v1;//这是浅copy，生成v2.buffer与v1.buffer指向同一块内存，
+    //v1析构时,内存被释放，v2.buffer就变成了悬空指针，访问v2.buffer就会出现段错误
 
-int main() {
-    CppBasic* cpp=new CppBasic(CppBasic::medium);
-    cpp->setNum(10);
-    cpp->setPtr(20,"Twenty");
-    delete cpp;
-    //执行销毁示例命令后自动调用析构函数，当然，这只是一种条件触发方式，
-    //就算没有类这个概念，也可以实现这个效果，本质就是满足条件调用函数。
+    cout << "v1 = " << v1 << std::endl;
+    cout << "v2 = " << v2 << std::endl;
+    
+
+
+
+    // vector<vectors> vecs;
+    // vecs.push_back(vectors("Hello, World!"));
+    // cout << "vecs[0] = " << vecs[0] << std::endl;
     return 0;
 }
+
+
+//下面历程讲述了数组声明以及赋值
+// int main() {
+//     #ifdef _WIN32
+//     SetConsoleOutputCP(CP_UTF8);
+//     #endif
+//     vectors* p=new vectors[5];//声明数组
+//     *p=vectors(1,2);//指针dereference后当然是第一个元素啦，原理都是一样的
+//     p[1].x=10;
+//     for (int i = 0; i < 5; i++) {
+//     std::cout << "p[" << i << "] = (" << p[i].x << ", " << p[i].y << ")" << std::endl;
+// }
+//     delete[] p;
+//     return 0;
+// }
