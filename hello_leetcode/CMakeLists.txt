@@ -7,3 +7,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(hello_leetcode listnode_reference.cpp)
+add_executable(string_exec string_reference.cpp)

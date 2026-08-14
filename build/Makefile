@@ -128,6 +128,19 @@ hello_leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/build
 .PHONY : hello_leetcode/fast
 
+#=============================================================================
+# Target rules for targets named string_exec
+
+# Build rule for target.
+string_exec: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 string_exec
+.PHONY : string_exec
+
+# fast build rule for target.
+string_exec/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/build
+.PHONY : string_exec/fast
+
 listnode_reference.obj: listnode_reference.cpp.obj
 .PHONY : listnode_reference.obj
 
@@ -152,6 +165,30 @@ listnode_reference.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/listnode_reference.cpp.s
 .PHONY : listnode_reference.cpp.s
 
+string_reference.obj: string_reference.cpp.obj
+.PHONY : string_reference.obj
+
+# target to build an object file
+string_reference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/string_reference.cpp.obj
+.PHONY : string_reference.cpp.obj
+
+string_reference.i: string_reference.cpp.i
+.PHONY : string_reference.i
+
+# target to preprocess a source file
+string_reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/string_reference.cpp.i
+.PHONY : string_reference.cpp.i
+
+string_reference.s: string_reference.cpp.s
+.PHONY : string_reference.s
+
+# target to generate assembly for a file
+string_reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/string_reference.cpp.s
+.PHONY : string_reference.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... hello_leetcode
+	@echo ... string_exec
 	@echo ... listnode_reference.obj
 	@echo ... listnode_reference.i
 	@echo ... listnode_reference.s
+	@echo ... string_reference.obj
+	@echo ... string_reference.i
+	@echo ... string_reference.s
 .PHONY : help
 
 

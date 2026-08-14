@@ -1,3 +1,4 @@
 E:/desk_top/cpp_quickstart/build/CMakeFiles/hello_leetcode.dir
+E:/desk_top/cpp_quickstart/build/CMakeFiles/string_exec.dir
 E:/desk_top/cpp_quickstart/build/CMakeFiles/edit_cache.dir
 E:/desk_top/cpp_quickstart/build/CMakeFiles/rebuild_cache.dir

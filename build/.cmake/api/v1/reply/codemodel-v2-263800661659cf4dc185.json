@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "hello_leetcode",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "hello_leetcode::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-hello_leetcode-Release-b1128de1329cda944940.json",
 					"name" : "hello_leetcode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string_exec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string_exec-Release-1423a48b45cc6a10454a.json",
+					"name" : "string_exec",
 					"projectIndex" : 0
 				}
 			]
