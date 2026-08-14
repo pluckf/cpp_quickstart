@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/desk_top/cpp_quickstart/hello_leetcode/string_reference.cpp" "CMakeFiles/string_exec.dir/string_reference.cpp.obj" "gcc" "CMakeFiles/string_exec.dir/string_reference.cpp.obj.d"
+  "E:/desk_top/cpp_quickstart/MinerSweeper/main.cpp" "CMakeFiles/MinerSweeper.dir/main.cpp.obj" "gcc" "CMakeFiles/MinerSweeper.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/desk_top/cpp_quickstart/hello_leetcode"
+			"value" : "E:/desk_top/cpp_quickstart/MinerSweeper"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/hello_leetcode"
+			"value" : "C:/Program Files (x86)/MinerSweeper"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "hello_leetcode"
+			"value" : "MinerSweeper"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1154,19 +1154,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "hello_leetcode_BINARY_DIR",
+			"name" : "MinerSweeper_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1178,7 +1166,7 @@
 			"value" : "E:/desk_top/cpp_quickstart/build"
 		},
 		{
-			"name" : "hello_leetcode_IS_TOP_LEVEL",
+			"name" : "MinerSweeper_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1190,7 +1178,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "hello_leetcode_SOURCE_DIR",
+			"name" : "MinerSweeper_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1199,7 +1187,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/desk_top/cpp_quickstart/hello_leetcode"
+			"value" : "E:/desk_top/cpp_quickstart/MinerSweeper"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",

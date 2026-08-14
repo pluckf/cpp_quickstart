@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "string_exec.exe"
+			"path" : "MinerSweeper.exe"
 		},
 		{
-			"path" : "string_exec.pdb"
+			"path" : "MinerSweeper.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -std=c++17"
+					"fragment" : "-g -std=c++17"
 				}
 			],
 			"language" : "CXX",
@@ -56,13 +56,13 @@
 			]
 		}
 	],
-	"id" : "string_exec::@6890427a1f51a3e7e1df",
+	"id" : "MinerSweeper::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "string_exec",
-	"nameOnDisk" : "string_exec.exe",
+	"name" : "MinerSweeper",
+	"nameOnDisk" : "MinerSweeper.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "string_reference.cpp",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

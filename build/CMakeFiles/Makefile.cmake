@@ -25,10 +25,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/chrome_download/cmake-3.29.7-windows-x86_64/cmake-3.29.7-windows-x86_64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake"
   "E:/chrome_download/cmake-3.29.7-windows-x86_64/cmake-3.29.7-windows-x86_64/share/cmake-3.29/Modules/Platform/Windows.cmake"
   "E:/chrome_download/cmake-3.29.7-windows-x86_64/cmake-3.29.7-windows-x86_64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake"
+  "E:/desk_top/cpp_quickstart/MinerSweeper/CMakeLists.txt"
   "CMakeFiles/3.29.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.7/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.7/CMakeSystem.cmake"
-  "E:/desk_top/cpp_quickstart/hello_leetcode/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -44,6 +44,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hello_leetcode.dir/DependInfo.cmake"
-  "CMakeFiles/string_exec.dir/DependInfo.cmake"
+  "CMakeFiles/MinerSweeper.dir/DependInfo.cmake"
   )

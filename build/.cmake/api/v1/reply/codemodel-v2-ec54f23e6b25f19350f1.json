@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -15,12 +15,11 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -28,11 +27,10 @@
 					[
 						0
 					],
-					"name" : "hello_leetcode",
+					"name" : "MinerSweeper",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,16 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "hello_leetcode::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hello_leetcode-Release-b1128de1329cda944940.json",
-					"name" : "hello_leetcode",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "string_exec::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-string_exec-Release-1423a48b45cc6a10454a.json",
-					"name" : "string_exec",
+					"id" : "MinerSweeper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MinerSweeper-Debug-ae624202c9c26e296e6e.json",
+					"name" : "MinerSweeper",
 					"projectIndex" : 0
 				}
 			]
@@ -59,7 +50,7 @@
 	"paths" : 
 	{
 		"build" : "E:/desk_top/cpp_quickstart/build",
-		"source" : "E:/desk_top/cpp_quickstart/hello_leetcode"
+		"source" : "E:/desk_top/cpp_quickstart/MinerSweeper"
 	},
 	"version" : 
 	{

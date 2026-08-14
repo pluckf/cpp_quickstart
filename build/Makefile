@@ -56,7 +56,7 @@ RM = E:\chrome_download\cmake-3.29.7-windows-x86_64\cmake-3.29.7-windows-x86_64\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\desk_top\cpp_quickstart\hello_leetcode
+CMAKE_SOURCE_DIR = E:\desk_top\cpp_quickstart\MinerSweeper
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = E:\desk_top\cpp_quickstart\build
@@ -116,78 +116,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_leetcode
+# Target rules for targets named MinerSweeper
 
 # Build rule for target.
-hello_leetcode: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hello_leetcode
-.PHONY : hello_leetcode
+MinerSweeper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MinerSweeper
+.PHONY : MinerSweeper
 
 # fast build rule for target.
-hello_leetcode/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/build
-.PHONY : hello_leetcode/fast
+MinerSweeper/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/build
+.PHONY : MinerSweeper/fast
 
-#=============================================================================
-# Target rules for targets named string_exec
-
-# Build rule for target.
-string_exec: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 string_exec
-.PHONY : string_exec
-
-# fast build rule for target.
-string_exec/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/build
-.PHONY : string_exec/fast
-
-listnode_reference.obj: listnode_reference.cpp.obj
-.PHONY : listnode_reference.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-listnode_reference.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/listnode_reference.cpp.obj
-.PHONY : listnode_reference.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-listnode_reference.i: listnode_reference.cpp.i
-.PHONY : listnode_reference.i
-
-# target to preprocess a source file
-listnode_reference.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/listnode_reference.cpp.i
-.PHONY : listnode_reference.cpp.i
-
-listnode_reference.s: listnode_reference.cpp.s
-.PHONY : listnode_reference.s
-
-# target to generate assembly for a file
-listnode_reference.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/listnode_reference.cpp.s
-.PHONY : listnode_reference.cpp.s
-
-string_reference.obj: string_reference.cpp.obj
-.PHONY : string_reference.obj
-
-# target to build an object file
-string_reference.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/string_reference.cpp.obj
-.PHONY : string_reference.cpp.obj
-
-string_reference.i: string_reference.cpp.i
-.PHONY : string_reference.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-string_reference.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/string_reference.cpp.i
-.PHONY : string_reference.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-string_reference.s: string_reference.cpp.s
-.PHONY : string_reference.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-string_reference.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/string_reference.cpp.s
-.PHONY : string_reference.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -197,14 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... hello_leetcode
-	@echo ... string_exec
-	@echo ... listnode_reference.obj
-	@echo ... listnode_reference.i
-	@echo ... listnode_reference.s
-	@echo ... string_reference.obj
-	@echo ... string_reference.i
-	@echo ... string_reference.s
+	@echo ... MinerSweeper
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

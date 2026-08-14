@@ -1,2 +1,2 @@
-# Empty dependencies file for hello_leetcode.
+# Empty dependencies file for MinerSweeper.
 # This may be replaced when dependencies are built.

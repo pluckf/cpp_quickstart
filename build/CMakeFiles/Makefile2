@@ -53,7 +53,7 @@ RM = E:\chrome_download\cmake-3.29.7-windows-x86_64\cmake-3.29.7-windows-x86_64\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\desk_top\cpp_quickstart\hello_leetcode
+CMAKE_SOURCE_DIR = E:\desk_top\cpp_quickstart\MinerSweeper
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = E:\desk_top\cpp_quickstart\build
@@ -62,8 +62,7 @@ CMAKE_BINARY_DIR = E:\desk_top\cpp_quickstart\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/hello_leetcode.dir/all
-all: CMakeFiles/string_exec.dir/all
+all: CMakeFiles/MinerSweeper.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,61 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/hello_leetcode.dir/clean
-clean: CMakeFiles/string_exec.dir/clean
+clean: CMakeFiles/MinerSweeper.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_leetcode.dir
+# Target rules for target CMakeFiles/MinerSweeper.dir
 
 # All Build rule for target.
-CMakeFiles/hello_leetcode.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\desk_top\cpp_quickstart\build\CMakeFiles --progress-num=1,2 "Built target hello_leetcode"
-.PHONY : CMakeFiles/hello_leetcode.dir/all
+CMakeFiles/MinerSweeper.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\desk_top\cpp_quickstart\build\CMakeFiles --progress-num=1,2 "Built target MinerSweeper"
+.PHONY : CMakeFiles/MinerSweeper.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello_leetcode.dir/rule: cmake_check_build_system
+CMakeFiles/MinerSweeper.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\desk_top\cpp_quickstart\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/hello_leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MinerSweeper.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\desk_top\cpp_quickstart\build\CMakeFiles 0
-.PHONY : CMakeFiles/hello_leetcode.dir/rule
+.PHONY : CMakeFiles/MinerSweeper.dir/rule
 
 # Convenience name for target.
-hello_leetcode: CMakeFiles/hello_leetcode.dir/rule
-.PHONY : hello_leetcode
+MinerSweeper: CMakeFiles/MinerSweeper.dir/rule
+.PHONY : MinerSweeper
 
 # clean rule for target.
-CMakeFiles/hello_leetcode.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_leetcode.dir\build.make CMakeFiles/hello_leetcode.dir/clean
-.PHONY : CMakeFiles/hello_leetcode.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/string_exec.dir
-
-# All Build rule for target.
-CMakeFiles/string_exec.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\desk_top\cpp_quickstart\build\CMakeFiles --progress-num=3,4 "Built target string_exec"
-.PHONY : CMakeFiles/string_exec.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/string_exec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\desk_top\cpp_quickstart\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/string_exec.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\desk_top\cpp_quickstart\build\CMakeFiles 0
-.PHONY : CMakeFiles/string_exec.dir/rule
-
-# Convenience name for target.
-string_exec: CMakeFiles/string_exec.dir/rule
-.PHONY : string_exec
-
-# clean rule for target.
-CMakeFiles/string_exec.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_exec.dir\build.make CMakeFiles/string_exec.dir/clean
-.PHONY : CMakeFiles/string_exec.dir/clean
+CMakeFiles/MinerSweeper.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/clean
+.PHONY : CMakeFiles/MinerSweeper.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
