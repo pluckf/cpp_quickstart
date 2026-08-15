@@ -25,7 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/chrome_download/cmake-3.29.7-windows-x86_64/cmake-3.29.7-windows-x86_64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake"
   "E:/chrome_download/cmake-3.29.7-windows-x86_64/cmake-3.29.7-windows-x86_64/share/cmake-3.29/Modules/Platform/Windows.cmake"
   "E:/chrome_download/cmake-3.29.7-windows-x86_64/cmake-3.29.7-windows-x86_64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake"
-  "E:/desk_top/cpp_quickstart/MinerSweeper/CMakeLists.txt"
+  "E:/desk_top/github/cpp_quickstart/MinerSweeper/CMakeLists.txt"
   "CMakeFiles/3.29.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.7/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.7/CMakeSystem.cmake"

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = E:\desk_top\github\cpp_quickstart\MinerSweeper
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\desk_top\github\cpp_quickstart\build
+CMAKE_BINARY_DIR = E:\desk_top\github\cpp_quickstart\MinerSweeper\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/MinerSweeper.dir/clean
 CMakeFiles/MinerSweeper.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinerSweeper.dir\build.make CMakeFiles/MinerSweeper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\desk_top\github\cpp_quickstart\build\CMakeFiles --progress-num=1,2 "Built target MinerSweeper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\desk_top\github\cpp_quickstart\MinerSweeper\build\CMakeFiles --progress-num=1,2 "Built target MinerSweeper"
 .PHONY : CMakeFiles/MinerSweeper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MinerSweeper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\desk_top\github\cpp_quickstart\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\desk_top\github\cpp_quickstart\MinerSweeper\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MinerSweeper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\desk_top\github\cpp_quickstart\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\desk_top\github\cpp_quickstart\MinerSweeper\build\CMakeFiles 0
 .PHONY : CMakeFiles/MinerSweeper.dir/rule
 
 # Convenience name for target.

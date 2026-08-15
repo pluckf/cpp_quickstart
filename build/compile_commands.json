@@ -1,8 +1,8 @@
 [
 {
-  "directory": "E:/desk_top/cpp_quickstart/build",
-  "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\MinerSweeper.dir\\main.cpp.obj -c E:\\desk_top\\cpp_quickstart\\MinerSweeper\\main.cpp",
-  "file": "E:/desk_top/cpp_quickstart/MinerSweeper/main.cpp",
+  "directory": "E:/desk_top/github/cpp_quickstart/build",
+  "command": "E:\\chrome_download\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\MinerSweeper.dir\\main.cpp.obj -c E:\\desk_top\\github\\cpp_quickstart\\MinerSweeper\\main.cpp",
+  "file": "E:/desk_top/github/cpp_quickstart/MinerSweeper/main.cpp",
   "output": "CMakeFiles/MinerSweeper.dir/main.cpp.obj"
 }
 ]

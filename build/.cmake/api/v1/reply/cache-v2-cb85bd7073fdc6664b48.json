@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/desk_top/cpp_quickstart/build"
+			"value" : "e:/desk_top/github/cpp_quickstart/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -455,7 +455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/desk_top/cpp_quickstart/build/CMakeFiles/pkgRedirects"
+			"value" : "E:/desk_top/github/cpp_quickstart/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/desk_top/cpp_quickstart/MinerSweeper"
+			"value" : "E:/desk_top/github/cpp_quickstart/MinerSweeper"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/desk_top/cpp_quickstart/build"
+			"value" : "E:/desk_top/github/cpp_quickstart/build"
 		},
 		{
 			"name" : "MinerSweeper_IS_TOP_LEVEL",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/desk_top/cpp_quickstart/MinerSweeper"
+			"value" : "E:/desk_top/github/cpp_quickstart/MinerSweeper"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

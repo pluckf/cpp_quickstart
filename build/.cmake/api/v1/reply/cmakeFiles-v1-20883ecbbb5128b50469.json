@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "E:/desk_top/cpp_quickstart/build/CMakeFiles/3.29.7/CMakeSystem.cmake"
+			"path" : "E:/desk_top/github/cpp_quickstart/build/CMakeFiles/3.29.7/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,7 +20,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "E:/desk_top/cpp_quickstart/build/CMakeFiles/3.29.7/CMakeCXXCompiler.cmake"
+			"path" : "E:/desk_top/github/cpp_quickstart/build/CMakeFiles/3.29.7/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -84,7 +84,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "E:/desk_top/cpp_quickstart/build/CMakeFiles/3.29.7/CMakeRCCompiler.cmake"
+			"path" : "E:/desk_top/github/cpp_quickstart/build/CMakeFiles/3.29.7/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -110,8 +110,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/desk_top/cpp_quickstart/build",
-		"source" : "E:/desk_top/cpp_quickstart/MinerSweeper"
+		"build" : "E:/desk_top/github/cpp_quickstart/build",
+		"source" : "E:/desk_top/github/cpp_quickstart/MinerSweeper"
 	},
 	"version" : 
 	{

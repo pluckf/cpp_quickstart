@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/desk_top/cpp_quickstart/build",
-		"source" : "E:/desk_top/cpp_quickstart/MinerSweeper"
+		"build" : "E:/desk_top/github/cpp_quickstart/build",
+		"source" : "E:/desk_top/github/cpp_quickstart/MinerSweeper"
 	},
 	"version" : 
 	{

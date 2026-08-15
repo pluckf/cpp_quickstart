@@ -1,0 +1,3 @@
+[ 50%] Building CXX object CMakeFiles/MinerSweeper.dir/main.cpp.obj
+[100%] Linking CXX executable MinerSweeper.exe
+[100%] Built target MinerSweeper

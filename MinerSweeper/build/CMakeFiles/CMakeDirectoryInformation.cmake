@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "E:/desk_top/github/cpp_quickstart/MinerSweeper")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "E:/desk_top/github/cpp_quickstart/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "E:/desk_top/github/cpp_quickstart/MinerSweeper/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
